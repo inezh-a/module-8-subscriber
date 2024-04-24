@@ -1,8 +1,8 @@
 ## REFLECTION
 1. **what is amqp?**
->
+> AMQP is an open standard application layer protocol for passing messages between applications and systems, regardless of message broker vendor or platform. It defines rules and message capabilities which must be made available by an AMQP compliant implementation (for example: RabbitMQ) to follow the AMQ Model.
 2. **what it means? guest:guest@localhost:5672, what is the first guest, and what is the second guest, and what is localhost:5672 is for?**
->
+> guest:guest@localhost:5672 is the connection string for the RabbitMQ server. guest:guest refers to the username and password (username:password) for the server, while localhost:5672 is the address of the server itself.
 <br>
 
 ### **Screenshot of RabbitMQ, simulating a slow subscriber.**
